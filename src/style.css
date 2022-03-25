@@ -1,0 +1,26 @@
+h1 {
+}
+body {
+  background-color: rgb(197, 194, 192);
+}
+
+#gross-calories {
+  height: 40px;
+  width: 400px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+}
+#total-food-calories {
+  background-color: var(--other-color);
+  border-radius: 5px;
+  height: 200px;
+  width: 250px;
+  text-align: center;
+  border: solid 1px;
+
+  cursor: pointer;
+}

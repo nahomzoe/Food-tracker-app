@@ -1,0 +1,29 @@
+h1 {
+}
+body {
+  background-color: rgb(197, 194, 192);
+}
+
+#gross-calories {
+  height: 40px;
+  width: 400px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+}
+#total-food-calories {
+  background-color: var(--other-color);
+  border-radius: 5px;
+  height: 200px;
+  width: 250px;
+  text-align: center;
+  border: solid 1px;
+
+  cursor: pointer;
+}
+
+.snackbar{display:inline-block;position:fixed;background:#323232;color:#f1f1f1;min-height:50px;min-width:290px;padding:16px 24px 12px;box-sizing:border-box;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-radius:2px;bottom:1rem;left:1rem;font-size:90%;-webkit-transition:visibility .3s,-webkit-transform .3s;transition:visibility .3s,-webkit-transform .3s;transition:visibility .3s,transform .3s;transition:visibility .3s,transform .3s,-webkit-transform .3s;-webkit-transform:translateY(100px);transform:translateY(100px);visibility:hidden;will-change:transform}.snackbar--visible{visibility:visible;-webkit-transform:none;transform:none}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.2cdaf7bc.css">
+    <title>my first parcel exploration</title>
+  </head>
+  <body>
+    <main>
+      <h1>My Nutrition</h1>
+      <h2>Add food</h2>
+
+      <form action="">
+        <div>
+          <label for="foods">Food name:</label>
+          <select name="foods" id="foods">
+            <option value="avocado">Avocado</option>
+            <option value="bruscetta">Bruscetta</option>
+            <option value="buritto">Buritto</option>
+            <option value="lasagna">Lasagna</option>
+            <option value="spaghetti">Spaghetti</option>
+            <option value="panacake">Pancake</option>
+            <option value="kiwi">Kiwi</option>
+            <option value="falafel">Falafel</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="">Carb</label>
+          <input type="number" id="carb-input" class="inputs">
+        </div>
+
+        <div class="form-field">
+          <label for="">Protein</label>
+          <input type="number" id="protein-input" class="inputs">
+        </div>
+
+        <div class="form-field">
+          <label for="">Fat</label>
+          <input type="number" id="fat-input" class="inputs">
+        </div>
+
+        <button id="add-button">Add</button>
+      </form>
+
+      <h2>Stats</h2>
+      <canvas id="myChart" width="400" height="400"></canvas>
+      <h2>Log</h2>
+      <section id="gross-calories">
+        Total calories logged:
+        <span id="gross-calories-result">0000</span>
+      </section>
+      <section id="card-containers"></section>
+    </main>
+
+    <script src="/index.0641b553.js" defer=""></script>
+  </body>
+</html>

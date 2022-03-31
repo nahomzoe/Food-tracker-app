@@ -68,7 +68,7 @@ const drawChart = (carbs, protein, fat) => {
   myChart = new Chart(ctx, {
     type: "bar",
     data: {
-      labels: ["Carbs", "Protien", "fat"],
+      labels: ["Carbs", "Protein", "fat"],
       datasets: [
         {
           label: "# of Votes",
@@ -108,9 +108,11 @@ const addToCalorieBox = (item) => {
   const card = `<div class="total-food-calories">
     <h2 class="food-choosen">${item.fields.foodname.stringValue}</h2>
     <p>Total calories: <span>${total}</span></p>
+    <div id="card-carb-protein-fat-item">
     <span>Carbs:<span class="carbs">${carb}</span>g</span>
     <span>protein:<span class="protein">${protein}</span>g</span>
     <span>Fat:<span class="fat">${fat}</span>g</span>
+    </div>
   </div>`;
 
   document

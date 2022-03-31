@@ -587,7 +587,7 @@ const drawChart = (carbs, protein, fat)=>{
         data: {
             labels: [
                 "Carbs",
-                "Protien",
+                "Protein",
                 "fat"
             ],
             datasets: [
@@ -631,9 +631,11 @@ const addToCalorieBox = (item)=>{
     const card = `<div class="total-food-calories">
     <h2 class="food-choosen">${item.fields.foodname.stringValue}</h2>
     <p>Total calories: <span>${total}</span></p>
+    <div id="card-carb-protein-fat-item">
     <span>Carbs:<span class="carbs">${carb}</span>g</span>
     <span>protein:<span class="protein">${protein}</span>g</span>
     <span>Fat:<span class="fat">${fat}</span>g</span>
+    </div>
   </div>`;
     document.querySelector("#card-containers").insertAdjacentHTML("beforeend", card);
     let grandTotal = document.querySelector("#gross-calories-result").textContent;

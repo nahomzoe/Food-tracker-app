@@ -10,11 +10,11 @@
   <body>
     <main>
       <h1>My Nutrition</h1>
-      <h2>Add food</h2>
+      <h2 class="second-title">Add food</h2>
 
       <form action="">
-        <div>
-          <label for="foods">Food name:</label>
+        <div class="form-field">
+          <label for="foods" id="food-name-label">Food name:</label>
           <select name="foods" id="foods">
             <option value="avocado">Avocado</option>
             <option value="bruscetta">Bruscetta</option>
@@ -27,30 +27,35 @@
           </select>
         </div>
         <div class="form-field">
-          <label for="">Carb</label>
+          <label for="carb-input">Carb:</label>
           <input type="number" id="carb-input" class="inputs">
         </div>
 
         <div class="form-field">
-          <label for="">Protein</label>
+          <label for="protein-input">Protein:</label>
           <input type="number" id="protein-input" class="inputs">
         </div>
 
         <div class="form-field">
-          <label for="">Fat</label>
+          <label for="fat-input">Fat:</label>
           <input type="number" id="fat-input" class="inputs">
         </div>
 
         <button id="add-button">Add</button>
       </form>
 
-      <h2>Stats</h2>
-      <canvas id="myChart" width="400" height="400"></canvas>
-      <h2>Log</h2>
-      <section id="gross-calories">
-        Total calories logged:
-        <span id="gross-calories-result">0000</span>
-      </section>
+      <h2 class="second-title">Stats</h2>
+      <div id="chart">
+        <canvas id="myChart" width="400" height="400"></canvas>
+      </div>
+
+      <h2 class="second-title">Log</h2>
+      <div id="display-gross">
+        <section id="gross-calories">
+          Total calories logged:
+          <span id="gross-calories-result">0000</span>
+        </section>
+      </div>
       <section id="card-containers"></section>
     </main>
 

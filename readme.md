@@ -6,10 +6,6 @@
 - It takes gram amount of carb protein and fat from the user of a meal and displays it in a chart.
 - It calculates the gross calorie of meals.
 
-```js
-const car = count 99 :, >>
-```
-
 ## How to run
 
 1. Clone repository

@@ -5,6 +5,7 @@
 - This app calculates the amount of Calories from Carbs protein and fat in a meal.
 - It takes gram amount of carb protein and fat from the user of a meal and displays it in a chart.
 - It calculates the gross calorie of meals.
+- It displays a card for a meal that has user entered.
 
 ## How to run
 
